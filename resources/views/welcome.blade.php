@@ -368,7 +368,7 @@
                 <!-- Bio Section -->
                 <div class="space-y-4">
                   <h3 class="text-2xl font-bold text-blue-500">
-                    Web Developer & UI Designer
+                    Web Developer & Graphic Designer
                   </h3>
                   <p class="text-gray-400 leading-relaxed">
                     Hello! I'm Parfait, a passionate web developer based in
@@ -664,11 +664,19 @@
                       ></i>
                     </a>
                     <a
-                      href="#"
+                    href="https://www.pinterest.com/shemaParfait_/"
+                    class="w-10 h-10 bg-gray-700/10 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors group"
+                  >
+                    <i
+                      class="fab fa-pinterest text-gray-400 group-hover:text-white"
+                    ></i>
+                  </a>
+                    <a
+                      href="https://www.instagram.com/pa.rfait30/"
                       class="w-10 h-10 bg-blue-400/10 rounded-full flex items-center justify-center hover:bg-blue-400 transition-colors group"
                     >
                       <i
-                        class="fab fa-twitter text-blue-400 group-hover:text-white"
+                        class="fab fa-instagram text-blue-400 group-hover:text-white"
                       ></i>
                     </a>
                   </div>
@@ -678,36 +686,43 @@
               <!-- Contact Form -->
               <div data-aos="fade-left" class="bg-[#1a1f2d] p-8 rounded-xl">
                 <form
-                  action="https://formspree.io/f/myzzbzpo"
-                  method="POST"
-                  class="space-y-6"
-                >
-                  <label class="block">
-                    Your email:
-                    <input
-                      type="email"
-                      name="email"
-                      class="w-full px-4 py-3 mt-2 bg-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    />
-                  </label>
+  action="https://formspree.io/f/myzzbzpo"
+  method="POST"
+  class="space-y-6"
+>
+  <!-- Add this hidden input field -->
+  <input 
+    type="hidden" 
+    name="_next" 
+    value="http://192.168.30.13:8000/#contact"
+  />
 
-                  <label class="block">
-                    Your message:
-                    <textarea
-                      name="message"
-                      rows="4"
-                      class="w-full px-4 py-3 mt-2 bg-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    ></textarea>
-                  </label>
+  <label class="block">
+    Your email:
+    <input
+      type="email"
+      name="email"
+      class="w-full px-4 py-3 mt-2 bg-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+    />
+  </label>
 
-                  <button
-                    type="submit"
-                    class="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-lg transition-colors duration-300 flex items-center justify-center space-x-2"
-                  >
-                    <span>Send</span>
-                    <i class="fas fa-paper-plane ml-2"></i>
-                  </button>
-                </form>
+  <label class="block">
+    Your message:
+    <textarea
+      name="message"
+      rows="4"
+      class="w-full px-4 py-3 mt-2 bg-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+    ></textarea>
+  </label>
+
+  <button
+    type="submit"
+    class="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-lg transition-colors duration-300 flex items-center justify-center space-x-2"
+  >
+    <span>Send</span>
+    <i class="fas fa-paper-plane ml-2"></i>
+  </button>
+</form>
               </div>
             </div>
           </div>
@@ -737,7 +752,7 @@
                 </a>
               </div>
               <div class="mt-8 text-gray-500 text-sm">
-                © 2024 Parfait. All rights reserved.
+                © 2025 Parfait. All rights reserved.
               </div>
             </div>
           </div>
